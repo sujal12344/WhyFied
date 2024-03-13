@@ -17,9 +17,9 @@ export default function Card({
   return (
     <>
       <div
-        className={`${Mega.className} ${className} ${color} aspect-square font-medium hover:font-black w-[300px] text-2xl  border-4 border-black shadow-[8px_8px_0px_rgba(0,0,0,1)] grid place-content-center hover:shadow-[14px_14px_0px_rgba(0,0,0,1)] cursor-pointer transition-shadow hover:scale-110`}
+        className={`${Mega.className} ${className} ${color} aspect-square font-medium hover:font-black w-[300px] text-2xl  border-4 border-black shadow-[8px_8px_0px_rgba(0,0,0,1)] grid place-content-center hover:shadow-[14px_14px_0px_rgba(0,0,0,1)] cursor-pointer transition-shadow hover:scale-[0.82] scale-75 sm:scale-100 sm:hover:scale-110`}
       >
-        <div className="flex space-x-2 mx-auto w-[255px]">
+        <div className="flex space-x-2 mx-auto">
           <p>
             {text1} <br />
             <strong className="text-yellow-500 text-[24px] hover:text-[30px] hover:font-extrabold">
